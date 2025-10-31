@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git configure') {
             steps {
-                git url:'https://github.com/sandippatil17/jen_repo.git'
+                git url:'https://github.com/sandippatil17/jen_repo.git',
                 branch:'main'
             }
         }
