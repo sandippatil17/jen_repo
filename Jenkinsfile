@@ -5,7 +5,7 @@ pipeline {
         stage('git configure') {
             steps {
                 git url:'https://github.com/sandippatil17/jen_repo.git'
-                branch:main
+                branch:'main'
             }
         }
         stage('docker image bulid') {
